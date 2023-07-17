@@ -38,25 +38,30 @@ function Home() {
             </div>
             <div className="container" style={{ marginTop: '3rem', padding: '64px 32px' }} id="sobre">
                 <h2 className="projeto" style={{ color: 'black' }}>SOBRE MIM</h2>
-                <p className="titulos-secundarios" style={{ width: '76%', textAlign: 'center' }}>Olá meu nome é Guilherme. Sou formado em Técnico Automação
+                <p className="titulos-secundarios" style={{ width: '76%', textAlign: 'justify' }}>Olá meu nome é Guilherme. Sou formado em Técnico Automação
                     Industrial. Graduando em Engenharia Eletrônica na Universidade Federal de Itajubá
                     (UNIFEI). Possuo interesse na área de programação front-end, na qual estou estudando
                     atualmente.
                 </p>
             </div>
-            <div className="cards" id="contato">
+            <div style={{ justifyContent: 'center', display: 'flex' }} id="contato">
                 <h3>Disponível para oportunidades</h3>
-                <div className="row-container">
-                    <a href="mailto:guilhermefernandes1937g@gmail.com" style={{ textDecoration: 'none', marginRight: '50%'}}>
+            </div>
+            <div className="containers">
+                <div className="email">
+                    <a href="mailto:guilhermefernandes1937g@gmail.com">
                         <h4>guilhermefernandes1937g@gmail.com</h4>
                     </a>
-                    <a href="#inicio" >
+                </div>
+                <div className="button-container">
+                    <a href="#inicio">
                         <button className="btn-direita">
                             <KeyboardDoubleArrowUpIcon />
                         </button>
                     </a>
                 </div>
             </div>
+
         </div>
     );
 };
