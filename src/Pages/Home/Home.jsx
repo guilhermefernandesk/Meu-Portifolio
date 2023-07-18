@@ -44,24 +44,17 @@ function Home() {
                     atualmente.
                 </p>
             </div>
-            <div style={{ justifyContent: 'center', display: 'flex' }} id="contato">
+            <div className="cards" id="contato" style={{ marginTop: 0 }}>
                 <h3>Disponível para oportunidades</h3>
+                <a href="mailto:guilhermefernandes1937g@gmail.com">
+                    <h4>guilhermefernandes1937g@gmail.com</h4>
+                </a>
+                <a href="#inicio" className="floating-btn">
+                    <button className="btn-direita">
+                        <KeyboardDoubleArrowUpIcon />
+                    </button>
+                </a>
             </div>
-            <div className="containers">
-                <div className="email">
-                    <a href="mailto:guilhermefernandes1937g@gmail.com">
-                        <h4>guilhermefernandes1937g@gmail.com</h4>
-                    </a>
-                </div>
-                <div className="button-container">
-                    <a href="#inicio">
-                        <button className="btn-direita">
-                            <KeyboardDoubleArrowUpIcon />
-                        </button>
-                    </a>
-                </div>
-            </div>
-
         </div>
     );
 };

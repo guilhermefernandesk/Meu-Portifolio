@@ -80,14 +80,20 @@ html {
 }
 
 .btn-direita {
-    width: 60px;
+    width: 50px;
     height: 40px;
-    border-radius: 20px;
-    background-color: #18bc9c;
+    border-radius: 10px;
+    background-color: #1888bc70;
     border: none;
     cursor: pointer;
+    
 }
 .btn-direita:hover{
-    background-color: #16a487;
+    background-color: #16a488ab;
 }
 
+.floating-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
