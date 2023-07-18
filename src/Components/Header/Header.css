@@ -33,3 +33,20 @@ nav .item-direita {
 nav .item-direita:hover {
     color: rgb(0, 68, 255);
 }
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    nav .logo {
+        font-size: 1.15rem;
+    }
+
+    nav .item-direita {
+        padding: 0;
+        margin-right: 10px;
+    }
+}
