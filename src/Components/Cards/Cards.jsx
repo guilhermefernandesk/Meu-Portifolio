@@ -16,7 +16,7 @@ const Cards = ({ cards }) => (
                     alt="cards"
                     image={cards.image}
                 />
-                <CardContent style={{height: '150px'}}>
+                <CardContent className="card-content">
                     <Typography variant="body2" color="text.secondary">
                         {cards.content}
                     </Typography>
