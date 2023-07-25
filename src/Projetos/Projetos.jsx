@@ -47,5 +47,13 @@ export const Projetos = [
     movie: "https://drive.google.com/file/d/1gupjVpNk3zae-DLPRZWuWLTMxyNQBYtu/view?usp=share_link",
     github: "https://github.com/guilhermefernandesk/shop"
   },
+  {
+    id: 7,
+    content: "O projeto consiste na montagem de uma placa realizada por alunos da unifei. Bem como suas correções necessárias e simulação de uma aplicação via software na linguagem C.",
+    lista: ["Programação em C", "PIC18F4550", "PCB"],
+    image: "https://i.ibb.co/28LQxx2/PQDB.jpg",
+    movie: "https://drive.google.com/file/d/1amIkBEUgF5RGjeDBrGX1CGrTWx1kXM-I/view?usp=sharing",
+    github: "https://github.com/guilhermefernandesk/Projeto-Placa-PBLE02"
+  },
 
 ]
