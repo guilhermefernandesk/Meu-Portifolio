@@ -44,7 +44,7 @@ export const Projetos = [
     content: "Esse é um projeto de loja desenvolvido no curso de flutter. No qual possui um armazenamento no firebase, carrinho de pedidos, produtos e autenticação por email.",
     lista: ["Flutter", "Firebase", "Autenticação"],
     image: "https://i.ibb.co/nCC1ybg/Design-sem-nome.png",
-    movie: "https://drive.google.com/file/d/1gupjVpNk3zae-DLPRZWuWLTMxyNQBYtu/view?usp=share_link",
+    movie: "https://drive.google.com/file/d/1uShf952nk4o3w_hI-iwFSRQzdFwc4BUt/view?usp=sharing",
     github: "https://github.com/guilhermefernandesk/shop"
   },
   {
